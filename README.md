@@ -3,7 +3,9 @@
 > Transforme estruturas de árvore ASCII geradas por IAs em diretórios reais instantaneamente
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-14.x-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16.x+-green.svg)](https://nodejs.org/)
+[![npm version](https://img.shields.io/npm/v/treecraft-ai.svg)](https://www.npmjs.com/package/treecraft-ai)
+[![npm downloads](https://img.shields.io/npm/dm/treecraft-ai.svg)](https://www.npmjs.com/package/treecraft-ai)
 
 ## 🚀 Visão Geral
 
@@ -12,7 +14,9 @@
 Quando você pede para uma IA sugerir uma estrutura de projeto, ela geralmente responde com uma representação em árvore ASCII. Com o TreeCraft AI, você pode copiar essa saída diretamente para um arquivo de texto e gerar instantaneamente toda a estrutura de diretórios e arquivos, economizando tempo e evitando erros manuais.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=TreeCraft+AI+Demo" alt="TreeCraft AI Demo" width="800">
+  <a href="https://github.com/MarcosBrendonDePaula/TreeCraftAI">
+    <img src="https://opengraph.githubassets.com/1/MarcosBrendonDePaula/TreeCraftAI" alt="TreeCraft AI GitHub" width="800">
+  </a>
 </p>
 
 ## ✨ Características
@@ -130,3 +134,12 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ## 📄 Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## 📦 Pacote npm
+
+Este projeto está disponível como um pacote npm:
+
+- **Pacote**: [treecraft-ai](https://www.npmjs.com/package/treecraft-ai)
+- **Versão**: 1.0.1
+- **Instalação Global**: `npm install -g treecraft-ai`
+- **Uso**: `treecraft arquivo.txt [diretório-de-saída]`

@@ -1,10 +1,10 @@
 {
   "name": "treecraft-ai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforme estruturas de árvore ASCII geradas por IAs em diretórios reais instantaneamente",
   "main": "treecraft.js",
   "bin": {
-    "treecraft": "./treecraft.js"
+    "treecraft": "treecraft.js"
   },
   "scripts": {
     "test": "node run-tests.js",
@@ -19,6 +19,11 @@
     "structure",
     "parser"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosBrendonDePaula/TreeCraftAI.git"
+  },
+  "homepage": "https://github.com/MarcosBrendonDePaula/TreeCraftAI#readme",
+  "author": "Marcos Brendon De Paula",
   "license": "MIT"
 }

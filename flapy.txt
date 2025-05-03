@@ -1,0 +1,26 @@
+flappy_clone/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── assets/
+│   ├── images/
+│   │   ├── bird.png
+│   │   ├── pipe.png
+│   │   ├── background.png
+│   │   └── base.png
+│   └── sounds/
+│       ├── flap.wav
+│       ├── point.wav
+│       └── hit.wav
+├── src/
+│   ├── __init__.py
+│   ├── main.py           # loop principal do jogo
+│   ├── config.py         # constantes (tamanho da tela, FPS, etc.)
+│   ├── bird.py           # classe Bird
+│   ├── pipe.py           # classe Pipe
+│   ├── base.py           # classe Base (chão rolante)
+│   └── score.py          # lógica e renderização do placar
+├── high_scores.json      # armazenamento local de recordes
+└── tests/
+    ├── __init__.py
+    └── test_game.py      # testes unitários básicos
