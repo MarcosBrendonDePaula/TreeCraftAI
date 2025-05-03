@@ -1,0 +1,20 @@
+Este é um exemplo de texto que contém uma estrutura de árvore ASCII no meio.
+Vamos ver se o nosso parser consegue detectar e extrair corretamente.
+
+Aqui está a estrutura do projeto:
+
+projeto-exemplo/
+├── docs/
+│   ├── README.md
+│   └── CONTRIBUTING.md
+├── src/
+│   ├── main.py
+│   └── utils/
+│       ├── helpers.py
+│       └── config.py
+└── tests/
+    ├── test_main.py
+    └── test_utils.py
+
+Este texto vem depois da estrutura de árvore e não deve ser considerado parte dela.
+O parser deve ser capaz de identificar onde a árvore começa e termina.

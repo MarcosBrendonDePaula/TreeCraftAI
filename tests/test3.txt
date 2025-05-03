@@ -1,0 +1,39 @@
+Este é um exemplo de texto que contém uma estrutura de árvore ASCII no meio.
+Vamos ver se o nosso parser consegue detectar e extrair corretamente.
+
+Aqui está a estrutura do projeto:
+
+api-backend/
+├── src/
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   ├── productController.js
+│   │   └── orderController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Product.js
+│   │   └── Order.js
+│   ├── routes/
+│   │   ├── userRoutes.js
+│   │   ├── productRoutes.js
+│   │   └── orderRoutes.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── errorHandler.js
+│   ├── utils/
+│   │   ├── logger.js
+│   │   └── helpers.js
+│   └── app.js
+├── config/
+│   ├── database.js
+│   └── server.js
+├── tests/
+│   ├── unit/
+│   │   └── models.test.js
+│   └── integration/
+│       └── api.test.js
+├── .env
+├── package.json
+└── README.md
+
+Este texto vem depois da estrutura de árvore e não deve ser considerado parte dela.

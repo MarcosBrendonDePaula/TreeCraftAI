@@ -1,0 +1,24 @@
+{
+  "name": "treecraft-ai",
+  "version": "1.0.0",
+  "description": "Transforme estruturas de árvore ASCII geradas por IAs em diretórios reais instantaneamente",
+  "main": "treecraft.js",
+  "bin": {
+    "treecraft": "./treecraft.js"
+  },
+  "scripts": {
+    "test": "node run-tests.js",
+    "start": "node treecraft.js",
+    "build": "node build.js",
+    "install-global": "node install.js"
+  },
+  "keywords": [
+    "ascii",
+    "tree",
+    "directory",
+    "structure",
+    "parser"
+  ],
+  "author": "",
+  "license": "MIT"
+}

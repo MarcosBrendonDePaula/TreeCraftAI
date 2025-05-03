@@ -1,0 +1,11 @@
+projeto-web/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── reset.css
+├── js/
+│   ├── main.js
+│   └── utils.js
+└── images/
+    ├── logo.png
+    └── background.jpg

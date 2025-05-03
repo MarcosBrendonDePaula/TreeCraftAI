@@ -1,0 +1,5 @@
+src/
+├── main.py
+├── utils/
+├── interface/
+└── core/

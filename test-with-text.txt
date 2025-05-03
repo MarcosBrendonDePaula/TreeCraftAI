@@ -1,0 +1,24 @@
+Este é um exemplo de texto que contém uma estrutura de árvore ASCII no meio.
+Vamos ver se o nosso parser consegue detectar e extrair corretamente.
+
+Aqui está a estrutura do projeto:
+
+meu-projeto-teste/
+├── src/                      # Código-fonte da aplicação
+│   └── index.js              # Exemplo de módulo para testar
+│
+├── tests/                    # Todos os seus testes
+│   ├── unit/                 # Testes unitários (pequenas unidades)
+│   │   └── index.test.js     # Exemplo de teste unitário
+│   │
+│   └── integration/          # Testes de integração (vários módulos juntos)
+│       └── api.test.js       # Exemplo de teste de integração
+│
+├── .gitignore                # Ignorar node_modules, coverage, etc.
+├── package.json              # Dependências e scripts
+├── jest.config.js            # Configuração do Jest
+├── README.md                 # Documentação básica de como rodar os testes
+└── coverage/                 # Relatórios de cobertura (gerado pelo Jest)
+
+Este texto vem depois da estrutura de árvore e não deve ser considerado parte dela.
+O parser deve ser capaz de identificar onde a árvore começa e termina.
